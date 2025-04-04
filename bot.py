@@ -5,8 +5,8 @@ import telebot
 from bs4 import BeautifulSoup
 
 # Telegram bot token
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")  # Беремо токен із змінних середовища
-CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")  # ID чату, куди надсилати повідомлення
+TOKEN = os.getenv("7751218914:AAFCObc08j3SA0Ets_ajQfDAJHsaoS8d_d8")  # Беремо токен із змінних середовища
+CHAT_ID = os.getenv("Showroom_price_tracking_bot")  # ID чату, куди надсилати повідомлення
 bot = telebot.TeleBot(TOKEN)
 
 # URL-адреси товарів
